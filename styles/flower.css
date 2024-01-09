@@ -1,0 +1,301 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 36px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: #E55473;
+    background-color: #FFF;
+}
+.red{
+    color: #E55473;
+}
+
+/* banner section styles */
+.banner{
+    width: 100%;
+    max-width: 1920px;
+    background: rgba(229, 84, 115, 0.10);
+    margin: 0 auto 120px;
+}
+.banner .banner-container{
+    width: 75%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 50px 0 0 0;
+    margin: auto;
+}
+.banner .banner-content .banner-heading{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 900;
+    max-width: 700px;
+    margin-bottom: 15px;
+}
+.banner .banner-content .banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 630px;
+    margin-bottom: 15px;
+}
+
+/* featured section styles */
+.featured{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto 120px;
+}
+.featured .featured-content{
+    text-align: center;
+}
+.featured .featured-content .featured-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.featured .featured-content .featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 580px;
+    margin: auto;
+}
+.featured .flower-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+.featured .flower-content .flower .flower-img{
+    border-radius: 300px 300px 0px 0px;
+    width: 460px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+}
+.featured .flower-content .flower .flower-img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.featured .flower-content .flower .red{
+    background: rgba(167, 33, 98, 0.15);
+}
+.featured .flower-content .flower .green{
+    background: rgba(5, 151, 160, 0.15);
+}
+.featured .flower-content .flower .blue{
+    background: rgba(71, 125, 17, 0.15);
+}
+.featured .flower-content .flower .flower-img img{
+    padding: 110px 75px 0;
+    width: 100%;
+}
+.featured .flower-content .flower p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+/* service section styles */
+.service-container{
+    width: 75%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 auto 120px;
+    padding: 87px 175px;
+}
+.service-container .service-content{
+    text-align: center;
+}
+.service-container .service-content p{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+/* hot-deal section styles */
+.hot-deal{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto 120px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal .hot-deal-container{
+    width: 75%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    padding: 100px 125px;
+}
+.hot-deal .hot-deal-container .hot-deal-content{
+    max-width: 590px;
+    margin: auto;
+    text-align: center;
+}
+.hot-deal .hot-deal-container .hot-deal-content .hot-deal-content-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.hot-deal .hot-deal-container .hot-deal-content .hot-deal-content-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+/* instagram section styles */
+.instagram{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto 120px;
+}
+.instagram .instagram-heading{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.instagram .instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 590px;
+    margin: auto;
+}
+.instagram .flower-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.instagram .flower-box img{
+    border-radius: 8px;
+}
+.instagram .flower-box img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* get deal section styles */
+.get-deal{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto 120px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
+    border-radius: 8px;
+}
+.get-deal .get-deal-container{
+    padding: 122px 285px;
+}
+.get-deal .get-deal-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.get-deal .get-deal-para{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.get-deal .inline{
+    text-align: center;
+}
+.get-deal .inline .inline-flex{
+    display: inline-flex;
+    gap: 16px;
+}
+.get-deal .inline .inline-flex .email{
+    padding: 22px 450px 22px 22px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.get-deal .inline .inline-flex .email:hover{
+    color: #FFF; 
+    background-color: #E55473;
+}
+
+/* footer section styles */
+.footer{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    background: #111010;
+}
+.footer .footer-content{
+    text-align: center;
+    padding: 128px 645px;
+}
+.footer .footer-content .footer-content-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.footer .footer-content .footer-content-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.footer .footer-content .footer-content-rights{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
