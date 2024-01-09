@@ -47,11 +47,13 @@ body{
     padding: 50px 0 0 0;
     margin: auto;
 }
+.banner .banner-content{
+    max-width: 700px;
+}
 .banner .banner-content .banner-heading{
     color: #272727;
     font-size: 80px;
     font-weight: 900;
-    max-width: 700px;
     margin-bottom: 15px;
 }
 .banner .banner-content .banner-description{
@@ -278,7 +280,9 @@ body{
 }
 .footer .footer-content{
     text-align: center;
-    padding: 128px 645px;
+    padding: 128px 0;
+    max-width: 580px;
+    margin: auto;
 }
 .footer .footer-content .footer-content-title{
     color: #FFF;
@@ -291,11 +295,11 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 32px;
 }
 .footer .footer-content .footer-content-rights{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 32px;
 }
