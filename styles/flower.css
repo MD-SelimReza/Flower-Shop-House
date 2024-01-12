@@ -14,12 +14,12 @@ body{
 }
 .btn-primary{
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     border: none;
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 36px;
+    padding: 12px 26px;
     cursor: pointer;
 }
 .btn-primary:hover{
@@ -33,42 +33,43 @@ body{
 /* banner section styles */
 .banner{
     width: 100%;
-    max-width: 1920px;
+    max-width: 1600px;
     background: rgba(229, 84, 115, 0.10);
-    margin: 0 auto 120px;
+    padding-top: 50px;
 }
 .banner .banner-container{
     width: 75%;
-    max-width: 1440px;
+    max-width: 1140px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
-    padding: 50px 0 0 0;
-    margin: auto;
+    gap: 40px;
+    margin: 0 auto 100px;
 }
-.banner .banner-content{
-    max-width: 700px;
+.banner .banner-container .content-area{
+    width: 50%;
 }
 .banner .banner-content .banner-heading{
     color: #272727;
-    font-size: 80px;
+    font-size: 42px;
     font-weight: 900;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .banner .banner-content .banner-description{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
-    max-width: 630px;
     margin-bottom: 15px;
+}
+.banner .banner-container .banner-img img{
+    width: 100%;
 }
 
 /* featured section styles */
 .featured{
     width: 75%;
     max-width: 1440px;
-    margin: 0 auto 120px;
+    margin: 0 auto 100px;
 }
 .featured .featured-content{
     text-align: center;
@@ -76,28 +77,29 @@ body{
 .featured .featured-content .featured-title{
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 900;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .featured .featured-content .featured-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
-    max-width: 580px;
+    width: 450px;
     margin: auto;
 }
 .featured .flower-content{
     display: flex;
     justify-content: space-between;
-    gap: 24px;
-    margin-top: 48px;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
 }
 .featured .flower-content .flower .flower-img{
     border-radius: 300px 300px 0px 0px;
-    width: 460px;
-    height: 530px;
+    width: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
 }
@@ -115,17 +117,16 @@ body{
     background: rgba(71, 125, 17, 0.15);
 }
 .featured .flower-content .flower .flower-img img{
-    padding: 110px 75px 0;
+    padding: 80px 50px 0;
     width: 100%;
 }
 .featured .flower-content .flower p{
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 35px;
     text-decoration-line: underline;
-    margin-top: 32px;
+    margin-top: 25px;
 }
 
 /* service section styles */
@@ -137,8 +138,8 @@ body{
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 0 auto 120px;
-    padding: 87px 175px;
+    margin: 0 auto 100px;
+    padding: 40px 75px;
 }
 .service-container .service-content{
     text-align: center;
@@ -146,7 +147,7 @@ body{
 .service-container .service-content p{
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 600;
     margin-top: 24px;
 }
@@ -155,68 +156,70 @@ body{
 .hot-deal{
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto 120px;
+    margin: 0 auto 100px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
 .hot-deal .hot-deal-container{
     width: 75%;
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 180px;
-    padding: 100px 125px;
+    gap: 50px;
+    padding: 50px 70px;
 }
 .hot-deal .hot-deal-container .hot-deal-content{
-    max-width: 590px;
-    margin: auto;
+    width: 750px;
     text-align: center;
 }
 .hot-deal .hot-deal-container .hot-deal-content .hot-deal-content-title{
     color: #272727;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 900;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .hot-deal .hot-deal-container .hot-deal-content .hot-deal-content-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 32px;
+}
+.hot-deal .hot-deal-container .img img{
+    width: 100%;
 }
 
 /* instagram section styles */
 .instagram{
     width: 75%;
     max-width: 1440px;
-    margin: 0 auto 120px;
+    margin: 0 auto 100px;
 }
 .instagram .instagram-heading{
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 900;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .instagram .instagram-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
-    max-width: 590px;
+    width: 400px;
     margin: auto;
 }
 .instagram .flower-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
-    margin-top: 48px;
+    margin-top: 40px;
 }
 .instagram .flower-box img{
+    width: 180px;
     border-radius: 8px;
 }
 .instagram .flower-box img:hover{
@@ -228,42 +231,50 @@ body{
 .get-deal{
     width: 75%;
     max-width: 1440px;
-    margin: 0 auto 120px;
+    margin: 0 auto 100px;
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     background-size: cover;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .get-deal .get-deal-container{
-    padding: 122px 285px;
+    padding: 25px 0;
+    
 }
 .get-deal .get-deal-title{
     color: #272727;
-    text-align: center;
-    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
     font-weight: 900;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    margin-top: 25px;
 }
 .get-deal .get-deal-para{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
-    margin-bottom: 48px;
+    margin-bottom: 30px;
 }
 .get-deal .inline{
     text-align: center;
+    margin-bottom: 50px;
 }
 .get-deal .inline .inline-flex{
     display: inline-flex;
     gap: 16px;
 }
 .get-deal .inline .inline-flex .email{
-    padding: 22px 450px 22px 22px;
+    padding: 12px 100px 12px 12px;
     border-radius: 8px;
     background: #FFF;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 .get-deal .inline .inline-flex .email:hover{
@@ -274,32 +285,33 @@ body{
 /* footer section styles */
 .footer{
     width: 100%;
-    max-width: 1920px;
+    max-width: 1600px;
     margin: auto;
     background: #111010;
 }
 .footer .footer-content{
     text-align: center;
-    padding: 128px 0;
-    max-width: 580px;
+    padding: 100px 0;
     margin: auto;
 }
 .footer .footer-content .footer-content-title{
     color: #FFF;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 900;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .footer .footer-content .footer-content-description{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
+    width: 400px;
+    margin: auto;
 }
 .footer .footer-content .footer-content-rights{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    margin-top: 32px;
+    margin-top: 25px;
 }
